@@ -12,11 +12,11 @@ from groq import Groq
 
 # === НАСТРОЙКИ ===
 
-API_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8585273586:AAEJz8bjzrXOM6OusKuW7xTYflsTYK5BFow")
+API_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 # HTML по умолчанию, чтобы везде работало форматирование
 bot = telebot.TeleBot(API_TOKEN, parse_mode="HTML")
 
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")  # TODO: подставь свой реальный ключ
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")  # TODO: подставь свой реальный ключ
 MODEL_NAME = "llama-3.1-8b-instant"
 
 client = Groq(api_key=GROQ_API_KEY)
