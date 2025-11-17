@@ -1,6 +1,6 @@
 LogiQ — умный AI-ассистент для микробизнеса
 •  Ссылка на работающего бота:
-@LogiQ_bot
+[@LogiQ_bot](https://t.me/LogiQ_Alpha_bot)
 
 •  Цель:
 
